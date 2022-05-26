@@ -18,7 +18,7 @@ req.onerror=(e)=>{
 }
 //////////////
 
-
+let h;
 
 const saveRecord = (data) => {
     let ts = mainDB.transaction('new_entry', 'readwrite');
